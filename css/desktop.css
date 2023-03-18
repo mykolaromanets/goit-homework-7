@@ -1,0 +1,46 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  /* HERO */
+  .section-hero {
+    width: 1440px;
+  }
+  .hero-title {
+    margin-bottom: 48px;
+  }
+
+  /* Section Services */
+  .section {
+    padding: 120px 0;
+  }
+  .services-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .section-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  /* .services-item {
+    width: calc((100% - 72px) / 4);
+  } */
+  .icon-border {
+    width: 264px;
+    height: 112px;
+    background: var(--secondary-bg-color);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+  .services-icon {
+    width: 64px;
+    height: 64px;
+  }
+}

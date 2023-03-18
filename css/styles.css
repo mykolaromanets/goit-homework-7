@@ -229,19 +229,15 @@ address {
 
 /* Sections */
 
-.section {
-  padding: 120px 0;
-}
-
-.section-title,
+/* .section-title,
 .section-subtitle {
   color: var(--main-title-colour);
-}
+} */
 
-.services-list {
+/* .services-list {
   display: flex;
   gap: 24px;
-}
+} */
 
 .section-title {
   font-size: 36px;
@@ -251,24 +247,24 @@ address {
   margin-bottom: 72px;
 }
 
-.section-subtitle {
+/* .section-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   margin-bottom: 8px;
-}
+} */
 
-.section-text {
+/* .section-text {
   color: var(--main-text-colour);
 
   line-height: 1.5;
-}
+} */
 
-.services-item {
+/* .services-item {
   width: calc((100% - 72px) / 4);
-}
+} */
 
-.icon-border {
+/* .icon-border {
   width: 264px;
   height: 112px;
   background: var(--secondary-bg-color);
@@ -277,12 +273,12 @@ address {
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
-}
+} */
 
-.services-icon {
+/* .services-icon {
   width: 64px;
   height: 64px;
-}
+} */
 
 .section-exapmles {
   padding-bottom: 120px;
