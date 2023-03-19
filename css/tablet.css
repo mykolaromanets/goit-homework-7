@@ -3,9 +3,106 @@
     width: 756px;
   }
 
+  /* HEADER */
+
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-list {
+    display: flex;
+    gap: 40px;
+
+    margin-left: 76px;
+  }
+  .header-contacts {
+    display: flex;
+    gap: 40px;
+  }
+  .logo {
+    color: var(--main-title-colour);
+    font-family: "Raleway", sans-serif;
+
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  .logo-part {
+    color: #4d5ae5;
+  }
+  .header {
+    border-bottom: 1px solid var(--footer-text-color);
+  }
+
+  .site-nav {
+    display: flex;
+    justify-content: left;
+  }
+  .header-list .header-link {
+    display: block;
+    padding: 24px 0;
+    color: var(--main-title-colour);
+
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-list .header-link:hover,
+  .header-list .header-link:focus {
+    color: var(--btn-focus-color);
+  }
+
+  .header-link {
+    position: relative;
+  }
+
+  .header-list .active {
+    color: var(--btn-focus-color);
+  }
+
+  .active::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    display: block;
+    height: 4px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: var(--btn-focus-color);
+  }
+
+  .header-list .header-link:active {
+    color: #404bbf;
+  }
+
+  address {
+    margin-left: auto;
+  }
+  .link-addres {
+    color: var(--main-text-colour);
+
+    font-style: normal;
+
+    line-height: 1.5;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .link-addres:hover,
+  .link-addres:focus {
+    color: #404bbf;
+  }
+
   /* HERO */
   .section-hero {
     width: 768px;
+    background-image: var(--bg-gradient-color),
+      url(../images/hero-bg-desktop.jpg);
   }
   .hero-title {
     font-size: 56px;
@@ -17,5 +114,67 @@
   /* Section Services */
   .services-item {
     width: calc((100% - 24px) / 2);
+  }
+  /* Section Examples */
+  .examples-container {
+    display: none;
+  }
+
+  /* Section Customers */
+  .section-customers > .container {
+    max-width: 582px;
+  }
+  .customers-list {
+    gap: 24px;
+  }
+  .customers-item {
+    width: calc((100% - 48px) / 3);
+    height: 88px;
+    margin-bottom: 72px;
+  }
+
+  /* Section Team  */
+  .section-team > .container {
+    max-width: 582px;
+  }
+  .team-list {
+    gap: 24px;
+  }
+
+  /* Footer */
+  .footer > .container {
+    width: 526px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: baseline;
+  }
+  .footer-logo-and-text {
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    margin-bottom: 72px;
+  }
+  .social-networks-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 24px;
+    margin-bottom: 72px;
+  }
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .footer-modal-form {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
   }
 }

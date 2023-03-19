@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
-    <!-- <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="logo">
@@ -54,17 +54,89 @@
             </li>
           </ul>
         </address>
+        <a href="./index.html" class="logo-menu">
+          <span class="logo-part-menu">Web</span>studio</a
+        >
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg class="meny-icon">
+            <use href="./images/symbol-defs.svg#icon-menu2"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
-    <main>
-      <!-- <section class="section-hero">
+      <div class="mobile-menu is-hidden" data-menu>
+        <div>
+          <button class="menu-close-btn" type="button" data-menu-close>
+            <svg class="menu-close-icon">
+              <use href="./images/close-icon.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <ul class="mob-menu-list">
+            <li>
+              <a href="./index.html" class="mob-menu-link">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="mob-menu-link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#" class="mob-menu-link mob-active">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="mob-menu-contacts">
+            <li>
+              <a href="mailto:info@devstudio.com" class="mob-menu-addres"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="mob-menu-tel"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+          <ul class="mob-menu-soc-icon">
+            <li class="social-networks-footer-items">
+              <a class="menu-social-list-link" href="">
+                <svg class="menu-social-icon">
+                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-networks-footer-items">
+              <a class="menu-social-list-link" href="">
+                <svg class="menu-social-icon">
+                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-networks-footer-items">
+              <a class="menu-social-list-link" href="">
+                <svg class="menu-social-icon">
+                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-networks-footer-items">
+              <a class="menu-social-list-link" href="">
+                <svg class="menu-social-icon">
+                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+  <main>
+      <section class="section-hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">Our services</h2>
@@ -124,8 +196,8 @@
           </ul>
         </div>
       </section>
-      <!-- <section class="section-exapmles">
-        <div class="container">
+      <section class="section-exapmles">
+        <div class="container examples-container">
           <h2 class="section-title">What are we doing</h2>
           <ul class="examples-list">
             <li>
@@ -143,8 +215,8 @@
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- <section class="section-team">
+      </section>
+      <section class="section-team">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list">
@@ -339,8 +411,8 @@
             </li>
           </ul>
         </div>
-      </section> -->
-      <!-- <section class="section-customers">
+      </section>
+      <section class="section-customers">
         <div class="container">
           <h2 class="section-title">Customers</h2>
           <ul class="customers-list">
@@ -388,10 +460,10 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
-    <!-- <footer class="footer">
-      <div class="footer-container">
+    <footer class="footer">
+      <div class="container footer-container">
         <div class="footer-logo-and-text">
           <a href="./index.html" class="logo-footer">
             <span class="logo-part">Web</span>studio</a
@@ -518,6 +590,7 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

@@ -1,7 +1,9 @@
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1158px;
+    min-width: 1158px;
   }
+
+  /* HEADER */
 
   /* HERO */
   .section-hero {
@@ -26,9 +28,7 @@
     font-size: 20px;
     line-height: 1.2;
   }
-  /* .services-item {
-    width: calc((100% - 72px) / 4);
-  } */
+
   .icon-border {
     width: 264px;
     height: 112px;
@@ -42,5 +42,63 @@
   .services-icon {
     width: 64px;
     height: 64px;
+  }
+
+  /* Section Examples */
+  .examples-container {
+    display: block;
+  }
+  .section-exapmles {
+    padding-bottom: 120px;
+  }
+  .examples-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  /* Section Customers */
+  .section-customers > .container {
+    max-width: 1158px;
+  }
+  .section-customers {
+    padding: 120px 0;
+  }
+  .customers-item {
+    width: 168px;
+    height: 88px;
+    margin-bottom: 0;
+  }
+
+  /* Section Team  */
+
+  .section-team > .container {
+    max-width: 1158px;
+  }
+  .section-team {
+    padding: 120px 0;
+  }
+
+  .team-list {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  /* Footer */
+  .footer > .container {
+    max-width: 1158px;
+    display: flex;
+  }
+  .container {
+    gap: unset;
+  }
+  .social-networks-footer {
+    margin-left: 120px;
+  }
+  .footer-form {
+    margin-left: 24px;
+  }
+  .footer-input {
+    width: 264px;
   }
 }
