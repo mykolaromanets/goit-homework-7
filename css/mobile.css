@@ -482,10 +482,6 @@
   .footer-input {
     width: 398px;
   }
-  .section-hero {
-    background-image: var(--bg-gradient-color),
-      url(../images/hero-bg-tablet.jpg);
-  }
   .menu-open-btn {
     display: none;
   }
