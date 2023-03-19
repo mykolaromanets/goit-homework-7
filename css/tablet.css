@@ -101,8 +101,6 @@
   /* HERO */
   .section-hero {
     width: 768px;
-    background-image: var(--bg-gradient-color),
-      url(../images/hero-bg-desktop.jpg);
   }
   .hero-title {
     font-size: 56px;
