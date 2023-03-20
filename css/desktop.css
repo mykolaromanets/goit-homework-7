@@ -97,6 +97,7 @@
   .footer > .container {
     max-width: 1158px;
     display: flex;
+    align-items: baseline;
   }
   .container {
     gap: unset;
@@ -105,7 +106,7 @@
     margin-left: 120px;
   }
   .footer-form {
-    margin-left: 24px;
+    margin-left: 80px;
   }
   .footer-input {
     width: 264px;
