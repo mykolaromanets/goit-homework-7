@@ -358,10 +358,10 @@ body {
 .section-subtitle-team {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
 }
 .section-text-team {
   font-weight: 400;
