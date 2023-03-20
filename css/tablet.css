@@ -1,9 +1,13 @@
 @media screen and (min-width: 768px) {
   .container {
     width: 756px;
+    align-items: center;
   }
 
   /* HEADER */
+  .header-container {
+    width: 756px;
+  }
 
   .header-nav {
     display: flex;
@@ -18,7 +22,8 @@
   }
   .header-contacts {
     display: flex;
-    gap: 40px;
+    flex-direction: column;
+    gap: 12px;
   }
   .logo {
     color: var(--main-title-colour);
@@ -112,6 +117,7 @@
   /* Section Services */
   .services-item {
     width: calc((100% - 24px) / 2);
+    display: unset;
   }
   /* Section Examples */
   .examples-container {
@@ -145,13 +151,13 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .container {
+  /* .container {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     align-items: baseline;
-  }
+  } */
   .footer-logo-and-text {
     flex-direction: column;
     display: flex;
