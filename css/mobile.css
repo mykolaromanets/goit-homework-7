@@ -269,6 +269,7 @@ body {
   gap: 24px;
 }
 .section-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-transform: capitalize;
@@ -283,6 +284,9 @@ body {
   margin-bottom: 8px;
 }
 .section-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   color: var(--main-text-colour);
 
   line-height: 1.5;
@@ -351,6 +355,22 @@ body {
 .section-team > .container {
   max-width: 294px;
 }
+.section-subtitle-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin-bottom: 15px;
+}
+.section-text-team {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
 .team-list {
   display: flex;
   flex-wrap: wrap;
@@ -541,8 +561,8 @@ body {
 }
 .modal-page {
   position: relative;
-  width: 408px;
-  min-height: 584px;
+  width: 100%;
+  min-height: auto;
   background-color: var(--modal-bg-color);
   border-radius: 4px;
   position: absolute;
@@ -773,7 +793,7 @@ body {
   }
   .mob-menu-tel {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 26px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--accent-colour);
@@ -788,7 +808,7 @@ body {
   }
   .mob-menu-soc-icon {
     display: flex;
-    gap: 56px;
+    gap: 24px;
     margin-top: 48px;
   }
   .menu-social-list-link {
@@ -808,5 +828,17 @@ body {
   }
   .footer-input {
     width: 398px;
+  }
+  .modal-page {
+    position: relative;
+    width: 392px;
+    height: 586px;
+    background-color: var(--modal-bg-color);
+    border-radius: 4px;
+    position: absolute;
+    padding: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
   }
 }
