@@ -16,7 +16,7 @@
 
 /* RESET */
 
-ul {
+/* ul {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -47,7 +47,7 @@ body {
 
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
-}
+} */
 
 /* Components */
 
@@ -61,10 +61,10 @@ body {
 
 /* Header */
 
-.header-container {
+/* .header-container {
   display: flex;
   align-items: center;
-}
+} */
 
 /* .header-nav {
   display: flex;
@@ -239,13 +239,13 @@ address {
   gap: 24px;
 } */
 
-.section-title {
+/* .section-title {
   font-size: 36px;
   line-height: 1.1;
   text-transform: capitalize;
   text-align: center;
   margin-bottom: 72px;
-}
+} */
 
 /* .section-subtitle {
   font-weight: 500;
@@ -480,7 +480,7 @@ address {
 
 /* Page Portfolio */
 
-.portfolio-section {
+/* .portfolio-section {
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -564,7 +564,7 @@ address {
 
 /* Modal page */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   background-color: rgba(46, 47, 66, 0.4);
@@ -742,9 +742,9 @@ address {
   letter-spacing: 0.04em;
   text-decoration-line: underline;
   color: var(--accent-colour);
-}
+} */
 
-.finish-modal-btn {
+/* .finish-modal-btn {
   width: 159px;
   height: 56px;
   display: block;
@@ -760,4 +760,4 @@ address {
 .finish-modal-btn:hover,
 .finish-modal-btn:focus {
   background-color: var(--btn-focus-color);
-}
+}  */
