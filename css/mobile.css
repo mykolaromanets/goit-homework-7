@@ -89,7 +89,7 @@ body {
 }
 .menu-open-btn {
   display: block;
-  margin: 23px 16px 22px auto;
+  margin: 23px 0 22px auto;
   background-color: transparent;
   border: none;
 }
@@ -749,12 +749,12 @@ body {
 }
 
 @media screen and (min-width: 480px) {
-  .container {
+  /* .container {
     width: 426px;
   }
   .header-container {
     width: 426px;
-  }
+  } */
   .mobile-menu {
     position: fixed;
     top: 0;
@@ -793,7 +793,7 @@ body {
   }
   .mob-menu-tel {
     font-weight: 700;
-    font-size: 26px;
+    font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--accent-colour);
@@ -808,7 +808,7 @@ body {
   }
   .mob-menu-soc-icon {
     display: flex;
-    gap: 24px;
+    gap: 56px;
     margin-top: 48px;
   }
   .menu-social-list-link {
