@@ -41,10 +41,19 @@
   .section {
     padding: 120px 0;
   }
+
+  .section-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+  }
   .services-list {
     display: flex;
     flex-wrap: nowrap;
     gap: 24px;
+  }
+  .services-item:nth-child(-n + 1) {
+    margin-bottom: unset;
   }
 
   .section-subtitle {
@@ -106,6 +115,10 @@
   .team-list {
     display: flex;
     flex-wrap: nowrap;
+  }
+  .modal-page {
+    width: 408px;
+    height: 584px;
   }
 
   /* Footer */
